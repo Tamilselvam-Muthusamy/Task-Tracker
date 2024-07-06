@@ -83,14 +83,13 @@
    ```bash
    bun install
    ```
-   ```
  
 ## Usage
  
 1. Start Command:
  
    ```bash
-  npm run dev
+   npm run dev
    ```
  
    or
