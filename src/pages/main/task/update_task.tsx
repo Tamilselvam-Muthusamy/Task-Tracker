@@ -289,7 +289,7 @@ function TaskEdit({ task }: any) {
 
                   <div className="w-full ">
                     <MultiSelect
-                      label={<div className="font-bold">Assignee</div>}
+                      label={<div className="font-bold">Assignees</div>}
                       {...form.getInputProps("taskAssigneeId")}
                       variant="filled"
                       placeholder="Select Name"

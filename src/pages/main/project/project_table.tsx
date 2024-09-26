@@ -41,7 +41,7 @@ function ProjectTable() {
           >
             <td className="table-body">{i + projectData.from}</td>
             <td className="table-body">{item.title ?? "None"}</td>
-            <td className="table-body-active"> {item.description ?? "None"}</td>
+            <td className="table-body"> {item.description ?? "None"}</td>
             <td className="table-body">
               {item.user?.firstName} {item.user?.lastName ?? "None"}
             </td>

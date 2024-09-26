@@ -36,7 +36,7 @@ export default function Navbar() {
               className="text-white hover:bg-accent-light text-base"
               rightIcon={<ArrowDownBar size={16} />}
             >
-              Welcome {localStorage.getItem("userName")}{" "}
+              Welcome {localStorage.getItem("firstName")}{" "}
               {localStorage.getItem("lastName")}
             </Button>
           </Menu.Target>

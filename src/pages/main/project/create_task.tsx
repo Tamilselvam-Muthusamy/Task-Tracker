@@ -147,7 +147,7 @@ function CreateTask() {
                   <Select
                     label={
                       <div className="font-bold">
-                        project Name<span className="ml-1 text-red-500">*</span>
+                        Project Name<span className="ml-1 text-red-500">*</span>
                       </div>
                     }
                     searchable
@@ -198,7 +198,7 @@ function CreateTask() {
                     searchable
                     label={
                       <div className="font-bold">
-                        Assignee<span className="ml-1 text-red-500">*</span>
+                        Assignees<span className="ml-1 text-red-500">*</span>
                       </div>
                     }
                     variant="filled"

@@ -27,7 +27,8 @@ export const AuthProvider = ({ children }: any) => {
   const [authUser, setAuthUser] = useState<AuthUser | null>(null);
   const navLink = useNavigate();
   const login = (data: any) => {
-    localStorage.setItem("userName", data?.lastName);
+    localStorage.setItem("firstName", data?.firstName);
+    localStorage.setItem("lastName", data?.lastName);
     localStorage.setItem("role", data?.Role?.role);
     localStorage.setItem("token", data?.token);
     localStorage.setItem("userId", String(data?.id));
