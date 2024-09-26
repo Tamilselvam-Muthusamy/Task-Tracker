@@ -24,7 +24,7 @@ function ProjectTable() {
         ]}
         from={projectData?.from ?? 0}
         to={projectData?.to ?? 0}
-        total={projectData?.totalCount ?? 0}
+        total={projectData?.total ?? 0}
         totalPages={projectData?.totalPages ?? 0}
         currentPage={state.page}
         onPageChanged={(page) => {

@@ -22,7 +22,7 @@ function UserTable() {
         ]}
         from={userData?.from ?? 0}
         to={userData?.to ?? 0}
-        total={userData?.totalCount ?? 0}
+        total={userData?.total ?? 0}
         totalPages={userData?.totalPages ?? 0}
         currentPage={state.page}
         onPageChanged={(page) => {
