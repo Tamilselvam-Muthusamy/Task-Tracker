@@ -162,7 +162,7 @@ function TaskEdit({ task }: any) {
       let statusCode = result.status ?? 0;
       let message = result.data?.message ?? "Something went wrong";
       setTaskFile((images: any) => {
-        return images.filter((value: any, i: any) => i !== index);
+        return images.filter((_: any, i: any) => i !== index);
       });
       if (statusCode == 200) {
         modals.closeAll();

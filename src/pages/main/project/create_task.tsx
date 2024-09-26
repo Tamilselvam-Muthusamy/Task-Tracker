@@ -107,7 +107,7 @@ function CreateTask() {
 
   function deleteImages(e: any) {
     setFile((index: any) => {
-      return index.filter((value: any, i: any) => i !== e);
+      return index.filter((_: any, i: any) => i !== e);
     });
   }
 
