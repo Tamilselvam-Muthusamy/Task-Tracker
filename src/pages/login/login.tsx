@@ -82,7 +82,7 @@ function LoginPage() {
             </div>
             <div className="">
               <Button loading={loading} type="submit" className="w-96 mt-2">
-                Login
+                Log in
               </Button>
             </div>
           </div>
@@ -95,16 +95,3 @@ function LoginPage() {
 
 export default LoginPage;
 
-// const [chechAccessid, setCheckAccessid] = useState<any>();
-//To Check the length of access Id (default-6)
-// function accessIdlen() {
-//   let checkaccessIdLength = "";
-//   if (checkaccessIdLength.length != 6) {
-//     const add_Zero = 6 - checkaccessIdLength.length;
-//     checkaccessIdLength = "0".repeat(add_Zero) + checkaccessIdLength;
-//     setCheckAccessid(checkaccessIdLength);
-//   } else {
-//     setCheckAccessid(checkaccessIdLength);
-//   }
-
-// }

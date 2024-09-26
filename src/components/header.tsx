@@ -42,7 +42,7 @@ export default function Navbar() {
           </Menu.Target>
           <Menu.Dropdown>
             <Menu.Item onClick={logout} color="red" icon={<Logout size={14} />}>
-              Logout
+              Log out
             </Menu.Item>
           </Menu.Dropdown>
         </Menu>

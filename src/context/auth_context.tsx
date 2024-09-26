@@ -37,7 +37,7 @@ export const AuthProvider = ({ children }: any) => {
   const logout = async () => {
     localStorage.clear();
     setAuthUser(null);
-    await navLink("/login");
+    await navLink("/");
   };
 
   const getUser = () => authUser;
