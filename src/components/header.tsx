@@ -26,7 +26,7 @@ export default function Navbar() {
       <div className="w-full flex justify-between items-center px-8">
         <div className="flex flex-row items-center space-x-2">
           <div className="text-white text-xl font-medium tracking-wide">
-            <span className="">Jira</span>
+            <span className="">Task Tracker</span>
           </div>
         </div>
         <Menu position="bottom-start" shadow="md" width={200}>
