@@ -12,7 +12,6 @@ This **Task Tracker** application, inspired by **Jira**, is a powerful tool desi
   - [User Module](#user-module)
   - [Project Module](#project-module)
   - [Task Module](#task-module)
-- [Screenshots](#screenshots)
 - [Technologies Used](#technologies-used)
 
 ## Features
@@ -76,24 +75,7 @@ To run the application locally:
 ### Task Module
 - Enables task creation, assignment to users, and updating task statuses within specific projects.
 
-## Screenshots
 
-Here are some screenshots highlighting various sections of the application:
-
-### Login & Authentication
-![Auth Screenshot](https://github.com/Tamilselvam-Muthusamy/Task-Tracker/assets/91073344/c080a8c0-b0ad-4de3-ae68-7d79f714a869)
-
-### Admin Dashboard
-![Admin Dashboard](https://github.com/Tamilselvam-Muthusamy/Task-Tracker/assets/91073344/a478f4ff-0831-4259-8e5f-1473bc1fcb2e)
-
-### User Management
-![User Management](https://github.com/Tamilselvam-Muthusamy/Task-Tracker/assets/91073344/6a8c4585-6550-427f-be48-542f88e24392)
-
-### Project Management
-![Project Management](https://github.com/Tamilselvam-Muthusamy/Task-Tracker/assets/91073344/dbce6a12-fdc8-4209-a6d5-25a37970c1f9)
-
-### Task Management
-![Task Management](https://github.com/Tamilselvam-Muthusamy/Task-Tracker/assets/91073344/1302034a-1406-41a2-a661-68e4b038ac13)
 
 ## Technologies Used
 
